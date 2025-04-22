@@ -1,0 +1,234 @@
+2025-04-21 18:14:00,283 - __main__ - INFO - Starting MongoDB benchmarks
+2025-04-21 18:14:07,780 - __main__ - INFO - Loaded 50000 customers, 50000 products, and 900000 orders
+2025-04-21 18:14:07,785 - __main__ - INFO - Connected to mongodb
+2025-04-21 18:14:07,796 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:14:07,796 - __main__ - INFO - Running customer_single test for mongodb with customers
+2025-04-21 18:25:01,824 - __main__ - INFO - Starting MongoDB benchmarks
+2025-04-21 18:25:09,028 - __main__ - INFO - Loaded 50000 customers, 50000 products, and 900000 orders
+2025-04-21 18:25:09,033 - __main__ - INFO - Connected to mongodb
+2025-04-21 18:25:09,042 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:25:09,043 - __main__ - INFO - Running customer_single test for mongodb with customers
+2025-04-21 18:25:39,478 - __main__ - INFO - Completed customer_single in 30.44s, 1642.83 records/second
+2025-04-21 18:25:39,730 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:25:39,731 - __main__ - INFO - Running product_single test for mongodb with products
+2025-04-21 18:26:11,176 - __main__ - INFO - Completed product_single in 31.44s, 1590.09 records/second
+2025-04-21 18:26:11,553 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:26:11,553 - __main__ - INFO - Running order_single test for mongodb with orders
+2025-04-21 18:35:22,160 - __main__ - INFO - Completed order_single in 550.61s, 1634.56 records/second
+2025-04-21 18:35:31,161 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:35:31,162 - __main__ - INFO - Running customer_batch_1 test for mongodb with customers
+2025-04-21 18:36:02,656 - __main__ - INFO - Completed customer_batch_1 in 31.49s, 1587.59 records/second
+2025-04-21 18:36:02,955 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:36:02,955 - __main__ - INFO - Running product_batch_1 test for mongodb with products
+2025-04-21 18:36:34,481 - __main__ - INFO - Completed product_batch_1 in 31.53s, 1585.99 records/second
+2025-04-21 18:36:34,882 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:36:34,882 - __main__ - INFO - Running order_batch_1 test for mongodb with orders
+2025-04-21 18:47:35,694 - __main__ - INFO - Completed order_batch_1 in 660.81s, 1361.96 records/second
+2025-04-21 18:47:45,595 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:47:45,595 - __main__ - INFO - Running customer_batch_100 test for mongodb with customers
+2025-04-21 18:47:46,666 - __main__ - INFO - Completed customer_batch_100 in 1.07s, 46721.64 records/second
+2025-04-21 18:47:47,004 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:47:47,004 - __main__ - INFO - Running product_batch_100 test for mongodb with products
+2025-04-21 18:47:48,065 - __main__ - INFO - Completed product_batch_100 in 1.06s, 47142.34 records/second
+2025-04-21 18:47:48,531 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:47:48,531 - __main__ - INFO - Running order_batch_100 test for mongodb with orders
+2025-04-21 18:48:14,165 - __main__ - INFO - Completed order_batch_100 in 25.63s, 35111.36 records/second
+2025-04-21 18:48:23,291 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:48:23,291 - __main__ - INFO - Running customer_batch_1000 test for mongodb with customers
+2025-04-21 18:48:24,013 - __main__ - INFO - Completed customer_batch_1000 in 0.72s, 69319.11 records/second
+2025-04-21 18:48:24,358 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:48:24,359 - __main__ - INFO - Running product_batch_1000 test for mongodb with products
+2025-04-21 18:48:25,300 - __main__ - INFO - Completed product_batch_1000 in 0.94s, 53167.74 records/second
+2025-04-21 18:48:25,756 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:48:25,757 - __main__ - INFO - Running order_batch_1000 test for mongodb with orders
+2025-04-21 18:48:47,854 - __main__ - INFO - Completed order_batch_1000 in 22.10s, 40729.57 records/second
+2025-04-21 18:48:56,997 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:48:56,998 - __main__ - INFO - Running customer_batch_10000 test for mongodb with customers
+2025-04-21 18:48:57,637 - __main__ - INFO - Completed customer_batch_10000 in 0.64s, 78300.73 records/second
+2025-04-21 18:48:57,993 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:48:57,994 - __main__ - INFO - Running product_batch_10000 test for mongodb with products
+2025-04-21 18:48:58,844 - __main__ - INFO - Completed product_batch_10000 in 0.85s, 58882.23 records/second
+2025-04-21 18:48:59,293 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:48:59,293 - __main__ - INFO - Running order_batch_10000 test for mongodb with orders
+2025-04-21 18:49:20,514 - __main__ - INFO - Completed order_batch_10000 in 21.22s, 42412.36 records/second
+2025-04-21 18:49:30,243 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:49:30,243 - __main__ - INFO - Running customer_concurrent_1w_1b test for mongodb with customers
+2025-04-21 18:50:07,138 - __main__ - INFO - Completed customer_concurrent_1w_1b in 36.89s, 1355.25 records/second
+2025-04-21 18:50:07,526 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:50:07,527 - __main__ - INFO - Running product_concurrent_1w_1b test for mongodb with products
+2025-04-21 18:50:42,689 - __main__ - INFO - Completed product_concurrent_1w_1b in 35.16s, 1422.07 records/second
+2025-04-21 18:50:43,111 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 18:50:43,111 - __main__ - INFO - Running order_concurrent_1w_1b test for mongodb with orders
+2025-04-21 19:02:01,553 - __main__ - INFO - Completed order_concurrent_1w_1b in 678.37s, 1326.71 records/second
+2025-04-21 19:02:12,293 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:02:12,293 - __main__ - INFO - Running customer_concurrent_1w_1000b test for mongodb with customers
+2025-04-21 19:02:13,016 - __main__ - INFO - Completed customer_concurrent_1w_1000b in 0.72s, 69589.87 records/second
+2025-04-21 19:02:13,448 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:02:13,448 - __main__ - INFO - Running product_concurrent_1w_1000b test for mongodb with products
+2025-04-21 19:02:14,415 - __main__ - INFO - Completed product_concurrent_1w_1000b in 0.96s, 51901.02 records/second
+2025-04-21 19:02:14,900 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:02:14,900 - __main__ - INFO - Running order_concurrent_1w_1000b test for mongodb with orders
+2025-04-21 19:02:38,433 - __main__ - INFO - Completed order_concurrent_1w_1000b in 23.51s, 38285.12 records/second
+2025-04-21 19:02:48,208 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:02:48,209 - __main__ - INFO - Running customer_concurrent_2w_1b test for mongodb with customers
+2025-04-21 19:03:08,502 - __main__ - INFO - Completed customer_concurrent_2w_1b in 20.29s, 2464.11 records/second
+2025-04-21 19:03:08,856 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:03:08,856 - __main__ - INFO - Running product_concurrent_2w_1b test for mongodb with products
+2025-04-21 19:03:29,729 - __main__ - INFO - Completed product_concurrent_2w_1b in 20.87s, 2395.62 records/second
+2025-04-21 19:03:30,207 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:03:30,207 - __main__ - INFO - Running order_concurrent_2w_1b test for mongodb with orders
+2025-04-21 19:09:57,438 - __main__ - INFO - Completed order_concurrent_2w_1b in 387.16s, 2324.65 records/second
+2025-04-21 19:10:09,187 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:10:09,187 - __main__ - INFO - Running customer_concurrent_2w_1000b test for mongodb with customers
+2025-04-21 19:10:09,738 - __main__ - INFO - Completed customer_concurrent_2w_1000b in 0.55s, 91616.54 records/second
+2025-04-21 19:10:10,142 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:10:10,143 - __main__ - INFO - Running product_concurrent_2w_1000b test for mongodb with products
+2025-04-21 19:10:10,748 - __main__ - INFO - Completed product_concurrent_2w_1000b in 0.60s, 83145.62 records/second
+2025-04-21 19:10:11,296 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:10:11,296 - __main__ - INFO - Running order_concurrent_2w_1000b test for mongodb with orders
+2025-04-21 19:10:25,284 - __main__ - INFO - Completed order_concurrent_2w_1000b in 13.96s, 64477.26 records/second
+2025-04-21 19:10:35,980 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:10:35,981 - __main__ - INFO - Running customer_concurrent_4w_1b test for mongodb with customers
+2025-04-21 19:10:47,448 - __main__ - INFO - Completed customer_concurrent_4w_1b in 11.47s, 4360.74 records/second
+2025-04-21 19:10:47,850 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:10:47,851 - __main__ - INFO - Running product_concurrent_4w_1b test for mongodb with products
+2025-04-21 19:10:59,645 - __main__ - INFO - Completed product_concurrent_4w_1b in 11.79s, 4240.24 records/second
+2025-04-21 19:11:00,213 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:11:00,213 - __main__ - INFO - Running order_concurrent_4w_1b test for mongodb with orders
+2025-04-21 19:14:40,654 - __main__ - INFO - Completed order_concurrent_4w_1b in 220.39s, 4083.71 records/second
+2025-04-21 19:14:50,898 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:14:50,898 - __main__ - INFO - Running customer_concurrent_4w_1000b test for mongodb with customers
+2025-04-21 19:14:51,179 - __main__ - INFO - Completed customer_concurrent_4w_1000b in 0.28s, 179212.51 records/second
+2025-04-21 19:14:51,526 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:14:51,527 - __main__ - INFO - Running product_concurrent_4w_1000b test for mongodb with products
+2025-04-21 19:14:51,882 - __main__ - INFO - Completed product_concurrent_4w_1000b in 0.35s, 141249.47 records/second
+2025-04-21 19:14:52,316 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:14:52,316 - __main__ - INFO - Running order_concurrent_4w_1000b test for mongodb with orders
+2025-04-21 19:15:00,637 - __main__ - INFO - Completed order_concurrent_4w_1000b in 8.30s, 108450.70 records/second
+2025-04-21 19:15:11,002 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:15:11,002 - __main__ - INFO - Running customer_concurrent_8w_1b test for mongodb with customers
+2025-04-21 19:15:23,233 - __main__ - INFO - Completed customer_concurrent_8w_1b in 12.23s, 4088.61 records/second
+2025-04-21 19:15:23,567 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:15:23,567 - __main__ - INFO - Running product_concurrent_8w_1b test for mongodb with products
+2025-04-21 19:15:36,311 - __main__ - INFO - Completed product_concurrent_8w_1b in 12.74s, 3924.03 records/second
+2025-04-21 19:15:36,760 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:15:36,761 - __main__ - INFO - Running order_concurrent_8w_1b test for mongodb with orders
+2025-04-21 19:19:34,086 - __main__ - INFO - Completed order_concurrent_8w_1b in 237.28s, 3793.01 records/second
+2025-04-21 19:19:44,932 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:19:44,932 - __main__ - INFO - Running customer_concurrent_8w_1000b test for mongodb with customers
+2025-04-21 19:19:45,212 - __main__ - INFO - Completed customer_concurrent_8w_1000b in 0.28s, 181658.42 records/second
+2025-04-21 19:19:45,570 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:19:45,571 - __main__ - INFO - Running product_concurrent_8w_1000b test for mongodb with products
+2025-04-21 19:19:45,890 - __main__ - INFO - Completed product_concurrent_8w_1000b in 0.32s, 157419.50 records/second
+2025-04-21 19:19:46,351 - __main__ - INFO - Cleared all data from mongodb
+2025-04-21 19:19:46,351 - __main__ - INFO - Running order_concurrent_8w_1000b test for mongodb with orders
+2025-04-21 19:19:54,521 - __main__ - INFO - Completed order_concurrent_8w_1000b in 8.14s, 110510.80 records/second
+2025-04-21 19:19:54,524 - __main__ - INFO - Disconnected from mongodb
+2025-04-21 19:19:54,526 - __main__ - INFO - Starting PostgreSQL benchmarks
+2025-04-21 19:20:03,649 - __main__ - INFO - Loaded 50000 customers, 50000 products, and 900000 orders
+2025-04-21 19:20:03,690 - __main__ - INFO - Connected to postgresql
+2025-04-21 19:20:03,714 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 19:20:03,715 - __main__ - INFO - Running customer_single test for postgresql with customers
+2025-04-21 19:20:33,167 - __main__ - INFO - Completed customer_single in 29.45s, 1697.68 records/second
+2025-04-21 19:20:33,179 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 19:20:33,179 - __main__ - INFO - Running product_single test for postgresql with products
+2025-04-21 19:21:02,067 - __main__ - INFO - Completed product_single in 28.89s, 1730.85 records/second
+2025-04-21 19:21:02,082 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 19:21:02,082 - __main__ - INFO - Running order_single test for postgresql with orders
+2025-04-21 19:32:40,072 - __main__ - INFO - Starting PostgreSQL benchmarks
+2025-04-21 19:32:47,247 - __main__ - INFO - Loaded 50000 customers, 50000 products, and 900000 orders
+2025-04-21 19:32:47,275 - __main__ - INFO - Connected to postgresql
+2025-04-21 19:32:47,285 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 19:32:47,285 - __main__ - INFO - Running customer_single test for postgresql with customers
+2025-04-21 19:33:11,339 - __main__ - INFO - Completed customer_single in 24.05s, 2078.72 records/second
+2025-04-21 19:33:11,339 - __main__ - INFO - Running product_single test for postgresql with products
+2025-04-21 19:33:34,998 - __main__ - INFO - Completed product_single in 23.66s, 2113.37 records/second
+2025-04-21 19:33:34,998 - __main__ - INFO - Running order_single test for postgresql with orders
+2025-04-21 19:41:31,454 - __main__ - INFO - Completed order_single in 476.46s, 1888.95 records/second
+2025-04-21 19:41:31,536 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 19:41:31,536 - __main__ - INFO - Running customer_batch_1 test for postgresql with customers
+2025-04-21 19:41:56,891 - __main__ - INFO - Completed customer_batch_1 in 25.35s, 1972.53 records/second
+2025-04-21 19:41:56,892 - __main__ - INFO - Running product_batch_1 test for postgresql with products
+2025-04-21 19:42:23,364 - __main__ - INFO - Completed product_batch_1 in 26.47s, 1889.19 records/second
+2025-04-21 19:42:23,365 - __main__ - INFO - Running order_batch_1 test for postgresql with orders
+2025-04-21 19:50:31,394 - __main__ - INFO - Completed order_batch_1 in 487.75s, 1845.20 records/second
+2025-04-21 19:50:31,476 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 19:50:31,476 - __main__ - INFO - Running customer_batch_100 test for postgresql with customers
+2025-04-21 19:50:56,854 - __main__ - INFO - Completed customer_batch_100 in 25.37s, 1970.68 records/second
+2025-04-21 19:50:56,854 - __main__ - INFO - Running product_batch_100 test for postgresql with products
+2025-04-21 19:51:22,293 - __main__ - INFO - Completed product_batch_100 in 25.43s, 1965.98 records/second
+2025-04-21 19:51:22,293 - __main__ - INFO - Running order_batch_100 test for postgresql with orders
+2025-04-21 19:59:04,594 - __main__ - INFO - Completed order_batch_100 in 462.07s, 1947.76 records/second
+2025-04-21 19:59:04,651 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 19:59:04,652 - __main__ - INFO - Running customer_batch_1000 test for postgresql with customers
+2025-04-21 19:59:07,694 - __main__ - INFO - Completed customer_batch_1000 in 3.04s, 16466.28 records/second
+2025-04-21 19:59:07,694 - __main__ - INFO - Running product_batch_1000 test for postgresql with products
+2025-04-21 19:59:10,916 - __main__ - INFO - Completed product_batch_1000 in 3.22s, 15549.23 records/second
+2025-04-21 19:59:10,916 - __main__ - INFO - Running order_batch_1000 test for postgresql with orders
+2025-04-21 20:00:03,703 - __main__ - INFO - Completed order_batch_1000 in 52.56s, 17124.67 records/second
+2025-04-21 20:00:03,789 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:00:03,790 - __main__ - INFO - Running customer_batch_10000 test for postgresql with customers
+2025-04-21 20:00:05,478 - __main__ - INFO - Completed customer_batch_10000 in 1.68s, 29736.00 records/second
+2025-04-21 20:00:05,478 - __main__ - INFO - Running product_batch_10000 test for postgresql with products
+2025-04-21 20:00:07,349 - __main__ - INFO - Completed product_batch_10000 in 1.87s, 26809.28 records/second
+2025-04-21 20:00:07,349 - __main__ - INFO - Running order_batch_10000 test for postgresql with orders
+2025-04-21 20:00:53,755 - __main__ - INFO - Completed order_batch_10000 in 46.18s, 19490.82 records/second
+2025-04-21 20:00:53,832 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:00:53,833 - __main__ - INFO - Running customer_concurrent_1w_1b test for postgresql with customers
+2025-04-21 20:01:17,110 - __main__ - INFO - Completed customer_concurrent_1w_1b in 23.28s, 2148.16 records/second
+2025-04-21 20:01:17,110 - __main__ - INFO - Running product_concurrent_1w_1b test for postgresql with products
+2025-04-21 20:01:40,970 - __main__ - INFO - Completed product_concurrent_1w_1b in 23.86s, 2095.68 records/second
+2025-04-21 20:01:40,971 - __main__ - INFO - Running order_concurrent_1w_1b test for postgresql with orders
+2025-04-21 20:09:30,378 - __main__ - INFO - Completed order_concurrent_1w_1b in 469.39s, 1917.39 records/second
+2025-04-21 20:09:30,464 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:09:30,465 - __main__ - INFO - Running customer_concurrent_1w_1000b test for postgresql with customers
+2025-04-21 20:09:33,579 - __main__ - INFO - Completed customer_concurrent_1w_1000b in 3.11s, 16062.99 records/second
+2025-04-21 20:09:33,580 - __main__ - INFO - Running product_concurrent_1w_1000b test for postgresql with products
+2025-04-21 20:09:36,779 - __main__ - INFO - Completed product_concurrent_1w_1000b in 3.20s, 15645.95 records/second
+2025-04-21 20:09:36,780 - __main__ - INFO - Running order_concurrent_1w_1000b test for postgresql with orders
+2025-04-21 20:10:38,312 - __main__ - INFO - Completed order_concurrent_1w_1000b in 61.51s, 14631.44 records/second
+2025-04-21 20:10:38,409 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:10:38,410 - __main__ - INFO - Running customer_concurrent_2w_1b test for postgresql with customers
+2025-04-21 20:11:06,310 - __main__ - INFO - Completed customer_concurrent_2w_1b in 27.90s, 1792.20 records/second
+2025-04-21 20:11:06,310 - __main__ - INFO - Running product_concurrent_2w_1b test for postgresql with products
+2025-04-21 20:11:34,713 - __main__ - INFO - Completed product_concurrent_2w_1b in 28.40s, 1760.59 records/second
+2025-04-21 20:11:34,714 - __main__ - INFO - Running order_concurrent_2w_1b test for postgresql with orders
+2025-04-21 20:21:04,466 - __main__ - INFO - Completed order_concurrent_2w_1b in 569.73s, 1579.69 records/second
+2025-04-21 20:21:04,567 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:21:04,568 - __main__ - INFO - Running customer_concurrent_2w_1000b test for postgresql with customers
+2025-04-21 20:21:07,735 - __main__ - INFO - Completed customer_concurrent_2w_1000b in 3.17s, 15795.33 records/second
+2025-04-21 20:21:07,736 - __main__ - INFO - Running product_concurrent_2w_1000b test for postgresql with products
+2025-04-21 20:21:10,759 - __main__ - INFO - Completed product_concurrent_2w_1000b in 3.02s, 16546.31 records/second
+2025-04-21 20:21:10,759 - __main__ - INFO - Running order_concurrent_2w_1000b test for postgresql with orders
+2025-04-21 20:22:08,912 - __main__ - INFO - Completed order_concurrent_2w_1000b in 58.12s, 15484.67 records/second
+2025-04-21 20:22:09,035 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:22:09,035 - __main__ - INFO - Running customer_concurrent_4w_1b test for postgresql with customers
+2025-04-21 20:22:37,974 - __main__ - INFO - Completed customer_concurrent_4w_1b in 28.94s, 1727.86 records/second
+2025-04-21 20:22:37,975 - __main__ - INFO - Running product_concurrent_4w_1b test for postgresql with products
+2025-04-21 20:23:07,752 - __main__ - INFO - Completed product_concurrent_4w_1b in 29.77s, 1679.35 records/second
+2025-04-21 20:23:07,752 - __main__ - INFO - Running order_concurrent_4w_1b test for postgresql with orders
+2025-04-21 20:32:52,692 - __main__ - INFO - Completed order_concurrent_4w_1b in 584.92s, 1538.68 records/second
+2025-04-21 20:32:52,796 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:32:52,796 - __main__ - INFO - Running customer_concurrent_4w_1000b test for postgresql with customers
+2025-04-21 20:32:55,812 - __main__ - INFO - Completed customer_concurrent_4w_1000b in 3.01s, 16589.26 records/second
+2025-04-21 20:32:55,812 - __main__ - INFO - Running product_concurrent_4w_1000b test for postgresql with products
+2025-04-21 20:32:59,111 - __main__ - INFO - Completed product_concurrent_4w_1000b in 3.30s, 15163.47 records/second
+2025-04-21 20:32:59,112 - __main__ - INFO - Running order_concurrent_4w_1000b test for postgresql with orders
+2025-04-21 20:33:59,296 - __main__ - INFO - Completed order_concurrent_4w_1000b in 60.16s, 14959.00 records/second
+2025-04-21 20:33:59,389 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:33:59,390 - __main__ - INFO - Running customer_concurrent_8w_1b test for postgresql with customers
+2025-04-21 20:34:28,890 - __main__ - INFO - Completed customer_concurrent_8w_1b in 29.50s, 1695.00 records/second
+2025-04-21 20:34:28,891 - __main__ - INFO - Running product_concurrent_8w_1b test for postgresql with products
+2025-04-21 20:34:59,108 - __main__ - INFO - Completed product_concurrent_8w_1b in 30.22s, 1654.77 records/second
+2025-04-21 20:34:59,108 - __main__ - INFO - Running order_concurrent_8w_1b test for postgresql with orders
+2025-04-21 20:44:50,773 - __main__ - INFO - Completed order_concurrent_8w_1b in 591.64s, 1521.19 records/second
+2025-04-21 20:44:50,873 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:44:50,873 - __main__ - INFO - Running customer_concurrent_8w_1000b test for postgresql with customers
+2025-04-21 20:44:55,313 - __main__ - INFO - Completed customer_concurrent_8w_1000b in 4.44s, 11268.10 records/second
+2025-04-21 20:44:55,314 - __main__ - INFO - Running product_concurrent_8w_1000b test for postgresql with products
+2025-04-21 20:44:58,373 - __main__ - INFO - Completed product_concurrent_8w_1000b in 3.06s, 16349.75 records/second
+2025-04-21 20:44:58,374 - __main__ - INFO - Running order_concurrent_8w_1000b test for postgresql with orders
+2025-04-21 20:45:59,855 - __main__ - INFO - Completed order_concurrent_8w_1000b in 61.46s, 14644.39 records/second
+2025-04-21 20:45:59,970 - __main__ - INFO - Cleared all data from postgresql
+2025-04-21 20:45:59,971 - __main__ - INFO - Disconnected from postgresql
+2025-04-21 20:45:59,973 - __main__ - INFO - Benchmark completed successfully!
