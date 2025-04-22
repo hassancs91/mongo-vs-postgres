@@ -1,0 +1,7 @@
+psycopg2-binary
+pymongo 
+faker 
+pandas 
+matplotlib 
+seaborn
+psutil
